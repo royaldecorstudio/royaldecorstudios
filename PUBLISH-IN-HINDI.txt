@@ -1,0 +1,26 @@
+ROYAL DECOR STUDIO — FREE WEBSITE PUBLISHING (HINDI)
+
+Aapki website static HTML/CSS/JS mein hai. Isko free HTTPS URL par publish karne ke liye Netlify Drop use kar sakte hain.
+
+PUBLISH KARNE KE STEPS:
+1. Is ZIP ko apne computer par Extract All karein.
+2. Extract hone ke baad "royal-decor-studio-site" folder kholein. Is folder ke andar index.html, about.html, services.html, css, js aur images hone chahiye.
+3. https://app.netlify.com/drop kholein. Free Netlify account se sign in/sign up karein.
+4. Folder ko drag karke upload area mein drop karein. Agar folder drop na ho, to us folder ke andar ki sab files aur folders select karke upload karein.
+5. Deployment complete hone par Netlify aapko ek live HTTPS link dega, jaise https://your-site-name.netlify.app. Ye example hai; aapka actual URL Netlify banayega.
+6. Link ko mobile aur incognito/private window mein khol kar Home, Services, Gallery, Contact, Call aur WhatsApp buttons test karein.
+7. Google Business Profile kholein > Edit profile > Contact (ya Website field) > Website. Apna exact live HTTPS link paste karke Save karein. Google par update dikhne mein kuch waqt lag sakta hai.
+
+PUBLISH KARNE SE PEHLE:
+- Website par kuch photos sample/styling visuals hain. Public promotion se pehle inhe Royal Decor Studio ke apne real completed event photos se replace karein; sample photos ko apna completed work na batayein.
+- Instagram link abhi placeholder ho sakta hai. Apna actual Instagram profile URL verify karke replace karein.
+- Business hours aur service areas ko apni actual details ke mutabiq check karein.
+- Is ZIP mein custom domain included nahi hai. Netlify ka free subdomain use kar sakte hain; custom domain aam taur par alag se kharidna hota hai.
+
+GOOGLE BUSINESS PROFILE:
+Website URL: Netlify publish hone ke baad milne wala exact URL.
+Phone/WhatsApp: +91 9501354811
+Service area: Mohali, Chandigarh aur sirf wahi nearby areas jahan aap service provide karte hain.
+
+NOTE:
+Main aapke Netlify/Google account mein sign in karke aapki taraf se Publish/Save nahi kar sakta. Aap upload karke live URL yahan bhej dein, to main aapko Google Profile mein connect karne ke exact next steps bata sakta hoon.
