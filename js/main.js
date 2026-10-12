@@ -1,5 +1,5 @@
 /* ============================================================
-   Royal Decor Studio — main.js
+   Royal Decor Studios — main.js
    Handles: sticky header, mobile nav, scroll reveal, gallery
    filter + lightbox, booking & availability enquiry forms
    (all enquiries are sent to WhatsApp: +91 9501354811)
@@ -146,7 +146,7 @@
       var budget = get("budget");
       var message = get("message");
 
-      var msg = "Hello Royal Decor Studio, I am interested in your decoration services. " +
+      var msg = "Hello Royal Decor Studios, I am interested in your decoration services. " +
         "Please share your packages and quotation. " +
         "Event type: " + type + ". Event date: " + date + ". Location: " + location + ". " +
         "Name: " + name + ". Contact: +" + phone + ".";
@@ -173,7 +173,7 @@
       e.preventDefault();
       if (!availForm.checkValidity()) { availForm.reportValidity(); return; }
       var d = new FormData(availForm);
-      var msg = "Hello Royal Decor Studio, I would like to check availability for my event. " +
+      var msg = "Hello Royal Decor Studios, I would like to check availability for my event. " +
         "Preferred date: " + (d.get("avDate") || "").toString() + ". " +
         "Event type: " + (d.get("avType") || "").toString() + ". " +
         "Location: " + (d.get("avLocation") || "").toString().trim() + ".";

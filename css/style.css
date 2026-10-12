@@ -1,5 +1,5 @@
 /* ============================================================
-   Royal Decor Studio — We Décor Your Emotion
+   Royal Decor Studios — We Décor Your Emotion
    Premium event decoration studio · Mohali · Chandigarh
    Palette: cream, white, beige, muted gold, subtle black
    ============================================================ */
@@ -376,4 +376,23 @@ button{font:inherit;cursor:pointer}
   html{scroll-behavior:auto}
   *,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important}
   .reveal{opacity:1;transform:none}
+}
+
+/* ---------- Contact grid (4 cards) ---------- */
+.contact-grid{grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+
+/* ---------- Featured service band (balloon) ---------- */
+.feature-band{display:grid;grid-template-columns:1fr 1.05fr;gap:clamp(26px,4vw,56px);align-items:center;background:var(--white);border:1px solid var(--line);border-radius:26px;padding:clamp(24px,4vw,48px);box-shadow:var(--shadow-md)}
+.feature-media{margin:0}
+.feature-media img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:18px;box-shadow:var(--shadow-sm)}
+.feature-body h2{font-family:var(--font-display);font-size:clamp(1.6rem,3vw,2.2rem);font-weight:600;line-height:1.2;margin:10px 0 12px}
+.feature-body>p{color:var(--muted)}
+.feature-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+
+/* ---------- Featured chip on service card ---------- */
+.service-card figure{position:relative}
+.card-flag{position:absolute;top:14px;left:14px;z-index:1;background:linear-gradient(135deg,#d3b57e,#a8834f);color:#241c10;font-size:.7rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;padding:6px 14px;border-radius:999px;box-shadow:0 6px 16px rgba(36,28,16,.28)}
+
+@media (max-width:900px){
+  .feature-band{grid-template-columns:1fr}
 }
