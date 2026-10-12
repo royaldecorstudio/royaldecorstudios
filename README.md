@@ -37,7 +37,7 @@ Search the `.html` files for `9501354811` and `+91 9501354811` and replace with 
 Edit the cards on `index.html` and the rows on `services.html` (each row has `id="svc-birthday"`, `id="svc-wedding"`, … so footer links keep working).
 
 ### Photos — IMPORTANT
-The images in `/images` are **sample styling visuals** used so the site launches with a complete, premium look. **Replace them with real photographs from Royal Decor Studios' own completed projects** before sharing the site publicly. Keep the same filenames and the site will update automatically. Never present sample/stock photos as completed client projects.
+Most images in `/images` are **sample styling visuals** used so the site launches with a complete, premium look. The files starting with **`real-`** are genuine photographs from Royal Decor Studios' own completed projects — they appear in the home-page "Recent Work" showcase and in the gallery with a gold **"Real Project"** badge. Keep them, and **replace the remaining sample images with more real project photographs** as you collect them. Keep the same filenames and the site will update automatically. Never present sample/stock photos as completed client projects.
 
 Recommended image sizes: 1400 px wide JPEG, quality ~80 (the existing files are already compressed this way).
 
@@ -45,7 +45,7 @@ Recommended image sizes: 1400 px wide JPEG, quality ~80 (the existing files are 
 Search for `9:00 AM` in the HTML files and update (marked with an `EDIT` comment in the footer).
 
 ### Instagram link
-The footer Instagram link points to the studio's profile: `https://www.instagram.com/royal_decorstudio/`. To change it, search the `.html` files for `royal_decorstudio` and update every occurrence (footers + the `sameAs` entry in the JSON-LD on `index.html`).
+The footer Instagram link points to the studio's profile: `https://www.instagram.com/royal_decorstudios/`. To change it, search the `.html` files for `royal_decorstudios` and update every occurrence (footers + the `sameAs` entry in the JSON-LD on `index.html`).
 
 ### Domain
 Search for `royaldecorstudio.in` (in `<link rel="canonical">`, `sitemap.xml`, `robots.txt`) and replace with the real domain.
@@ -65,8 +65,15 @@ Uncomment the GA block in the `<head>` of each page and replace `G-XXXXXXXXXX` w
 ### Google Reviews
 The reviews section links customers to your Google reviews and includes a marked container for a genuine Google reviews widget. To show live reviews, connect a trusted Google reviews widget to the studio's **Google Place ID** (hook documented in `js/main.js`). **Never add fabricated reviews, names or ratings.**
 
-### Google Maps embed
-A Google Maps embed is intentionally **not** included because the studio's exact business location is not yet confirmed. Once confirmed, add an embed on `contact.html` where the placeholder comment is, using the confirmed location only — do not invent a street address.
+### Google Maps embed & business address
+The studio's confirmed location is added on `contact.html` (live map embed + address bar + Get Directions button) and in the footer of every page:
+
+**67, Sector 125, Sunny Enclave, Mohali, Punjab 140301**
+📍 Map coordinates: 30.7431686, 76.6735174
+
+- The map embed uses the exact coordinates from the studio's Google Maps listing.
+- The `LocalBusiness` JSON-LD in `index.html` includes the address, `geo` coordinates and `hasMap` — keep it in sync with your Google Business Profile address.
+- To change the address: search the whole folder for `Sunny Enclave` and `140301` and update every occurrence (contact page, footers, quick-contact lists, JSON-LD in `index.html`, this README).
 
 ---
 
